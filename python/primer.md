@@ -1,7 +1,7 @@
 - Created by Guido Van Rossum in the early 1990s
 - Python 3
 - Interpreted language - Interpreter receives a command, evaluates it, and then reports the result of the command. Compilation doesn’t happen.
-- .py suffix for python files
+- `.py` suffix for python files
 - Syntax relies on whitespaces and indentations
 - Comments - `# this is a comment`
 
