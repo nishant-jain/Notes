@@ -1,42 +1,45 @@
-Created by Guido Van Rossum in the early 1990s
-Guide for python 3
-Python Interpreter
-Interpreted language - Interpreter receives a command, evaluates it, and then reports the result of the command. Compilation doesn’t happen.
-.py suffix for python files
-Syntax relies on whitespaces and indentations
-Comments - # this is a comment
+- Created by Guido Van Rossum in the early 1990s
+- Guide for python 3
+- Python Interpreter
+- Interpreted language - Interpreter receives a command, evaluates it, and then reports the result of the command. Compilation doesn’t happen.
+- .py suffix for python files
+- Syntax relies on whitespaces and indentations
+- Comments - # this is a comment
 
-Objects in Python
+###Objects in Python
 
-Object oriented language and classes form the basis of all types
-Identifiers, objects and assignment statements
+- Object oriented language and classes form the basis of all types
 
-Identifiers - Variables in other languages
-temperature = 98.6
-Temperature is the identifier
-Mapped to object(98.6)
-Case sensitive, can’t begin with a number
-Similar to a pointer in C
-Associated with the memory address of the object which it refers
-Can be assigned to “None” object(similar to null in JS)
-Dynamically typed(unlike java/C++) - no advance association of identifier with a data type
-Objects on the other hand, have a definite type (98.6 is float)
-Alias - associating another identifier to existing object (temp = 98.6. Temp and temperature both point to 98.6 now)
-Assignment by reference, so changes to one alias reflect in the next
-Although if assignment done again via = operator, the alias breaks 
-Ex - temperature = temperature + 5 
-New values: Temp -> 98.6, and temperature -> 103.6
+#####Identifiers, objects and assignment statements
 
-Creating and using objects
-Instantiation - process of creating a new instance
-By invoking the constructor of the class (Widget() for class Widget)
-Or by literal form (temp = 98.6 for floats, “98.6” new instance of the float )
-Or functions which return a new instance of a class (for ex- sorted())
-Syntax for calling methods - either use sorted(data) (where data is passed as a param) or data.sorted() (member functions) 
-Accessors - similar to getters 
-Mutators - similar to setters
+- Identifiers - Variables in other languages
+- temperature = 98.6
+- Temperature is the identifier
+- Mapped to object(98.6)
+- Case sensitive, can’t begin with a number
+- Similar to a pointer in C
+- Associated with the memory address of the object which it refers
+- Can be assigned to “None” object(similar to null in JS)
+- Dynamically typed(unlike java/C++) - no advance association of identifier with a data type
+- Objects on the other hand, have a definite type (98.6 is float)
+- Alias - associating another identifier to existing object (temp = 98.6. Temp and temperature both point to 98.6 now)
+- Assignment by reference, so changes to one alias reflect in the next
+- Although if assignment done again via = operator, the alias breaks 
+- Ex - temperature = temperature + 5 
+- New values: Temp -> 98.6, and temperature -> 103.6
 
-Python’s built-In classes
+#####Creating and using objects
+
+- Instantiation - process of creating a new instance
+- By invoking the constructor of the class (Widget() for class Widget)
+- Or by literal form (temp = 98.6 for floats, “98.6” new instance of the float )
+- Or functions which return a new instance of a class (for ex- sorted())
+- Syntax for calling methods - either use sorted(data) (where data is passed as a param) or data.sorted() (member functions) 
+- Accessors - similar to getters 
+- Mutators - similar to setters
+
+#####Python’s built-In classes
+
 Immutable classes - classes whose values are fixed upon instantiation and cannot be changed subsequently. Ex- float
 Bool, int, float, list, tuple, str, set, frozenset, dict
 Most of them support literal forms of initialization(like 98.6) and all of them support traditional constructors
@@ -98,7 +101,7 @@ Represents dictionary/mapping, key to value map
 {‘a’:1, ‘b’:2} - valid dictionary
 dict(pairs) with pairs = [( ga , Irish ), ( de , German )] can be used to generate dict
 
-Expressions, operators, and precedence
+#####Expressions, operators, and precedence
 Logical operators
 not, and, or
 ‘and’ and ‘or’ operators short circuit
@@ -114,7 +117,7 @@ Comparison operators
 Arithmetic operators
 +, -, *, /, //, %
 / - true division
-// - integer division    
+// - integer division
 Python supports the pair of operators // and % to perform the integral calculations, with expression 27 // 4 evaluating to int value 6 (the mathematical floor of the quotient), and expression 27 % 4 evaluating to int value 3, the remainder of the integer division
 Bitwise operators
 
