@@ -6,11 +6,11 @@
 - Syntax relies on whitespaces and indentations
 - Comments - # this is a comment
 
-###Objects in Python
+### Objects in Python
 
 - Object oriented language and classes form the basis of all types
 
-#####Identifiers, objects and assignment statements
+##### Identifiers, objects and assignment statements
 
 - Identifiers - Variables in other languages
 - temperature = 98.6
@@ -28,7 +28,7 @@
 - Ex - temperature = temperature + 5 
 - New values: Temp -> 98.6, and temperature -> 103.6
 
-#####Creating and using objects
+##### Creating and using objects
 
 - Instantiation - process of creating a new instance
 - By invoking the constructor of the class (Widget() for class Widget)
@@ -38,7 +38,7 @@
 - Accessors - similar to getters 
 - Mutators - similar to setters
 
-#####Python’s built-In classes
+##### Python’s built-In classes
 
 Immutable classes - classes whose values are fixed upon instantiation and cannot be changed subsequently. Ex- float
 Bool, int, float, list, tuple, str, set, frozenset, dict
@@ -101,7 +101,7 @@ Represents dictionary/mapping, key to value map
 {‘a’:1, ‘b’:2} - valid dictionary
 dict(pairs) with pairs = [( ga , Irish ), ( de , German )] can be used to generate dict
 
-#####Expressions, operators, and precedence
+##### Expressions, operators, and precedence
 Logical operators
 not, and, or
 ‘and’ and ‘or’ operators short circuit
@@ -121,5 +121,4 @@ Arithmetic operators
 Python supports the pair of operators // and % to perform the integral calculations, with expression 27 // 4 evaluating to int value 6 (the mathematical floor of the quotient), and expression 27 % 4 evaluating to int value 3, the remainder of the integer division
 Bitwise operators
 
-For the rest, read chapter 1. This is too tedious and too basic.
-This is till section 1.3 of the book “Data structures and algorithms in python” by goodrich, tamassia and goldwasser. Will add stuff to tech notes which is something I don’t know/or find really important.
+This is till section 1.3 of the book “Data structures and algorithms in python” by goodrich, tamassia and goldwasser.
