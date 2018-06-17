@@ -51,4 +51,4 @@
 ##### References:
 - [How does CPU execute program](https://www.youtube.com/watch?v=42KTvGYQYnA)
 - [Machine Code Instructions](https://www.youtube.com/watch?v=Mv2XQgpbTNE)
-- Wiki (https://en.wikipedia.org/wiki/Instruction_cycle)
+- [Wiki](https://en.wikipedia.org/wiki/Instruction_cycle)
